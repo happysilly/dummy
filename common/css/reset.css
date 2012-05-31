@@ -1,0 +1,49 @@
+@charset "utf-8";
+/**
+ * Copyright (c) MY REAL VISION All Rights Reserved.
+ * Last Updated: 2012/01/17
+ * reset.css
+ */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption, th {
+	text-align: left;
+	font-weight: normal;
+}
+
+hr, legend {
+	display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+}
+
+img, abbr, acronym, fieldset {
+	border: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+ol li {
+	margin: 0 0 0.5em 1.9em;
+	list-style-type: decimal;
+}
+
+p {
+	/*margin-bottom: 1em;*/
+}

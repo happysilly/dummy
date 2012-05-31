@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* ================================================================================
+
+	Copyright (c) MY REAL VISION All Rights Reserved.
+	Last Updated: 2012/04/25
+
+	[INDEX]
+	1. Common Format: 共通設定
+		1.1 reset
+		1.2 global
+		1.3 header
+		1.4 content
+		1.5 footer
+	2. Directory Format: ディレクトリごとの共通設定
+		2.1 top
+		2.2 hoge
+		2.3 hoge
+			2.3.1 hoge
+		2.11 error404
+	3. Other Styles: その他スタイル
+
+================================================================================ */
+
+/* --------------------------------------------------------------------------------
+
+	1. Common Format
+
+-------------------------------------------------------------------------------- */
+/**
+ * 1.1 reset
+ * リセット
+ */
+/*@import url('reset.css');*/
+
+/**
+ * 1.2 global
+ * リセット
+ */
+body {
+	text-align: center;
+	background-color: #f9f7f5;
+}
+body, th, td {
+	line-height: 1.3em;
+	color: #333;
+	font-family: verdana, sans-serif;
+	font-size: 14px;
+}
+a {
+	color: #007bde;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: underline;
+}
+#content {
+	text-align: left;
+}
+
+#header #site-name {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#footer #copyright {
+	font-size: 10px;
+}
+
+/**
+ * 3.0 Other Styles
+ * その他
+ */
+a.fancy_button {
+	display: inline-block;
+	border: 1px solid #dfd7c4;
+	padding: 0.2em 1em;
+	text-decoration: none;
+	-webkit-box-shadow: 0px 1px 2px 0px #bbb; -moz-box-shadow: 0px 1px 2px 0px #bbb;
+	-webkit-border-radius: 3px; -moz-border-radius: 3px;
+	background: #e2dfdf -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.5)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.5, rgba(255,255,255,0.0)), to(transparent));
+	background: #e2dfdf -moz-linear-gradient(top, rgba(255,255,255,0.5), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.0) 50%, transparent);
+	background-clip: padding-box;
+}
+a.fancy_button:hover {
+	background: #d1cece -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.5)), color-stop(0.5, rgba(255,255,255,0.2)), color-stop(0.5, rgba(255,255,255,0.0)), to(transparent));
+	background: #d1cece -moz-linear-gradient(top, rgba(255,255,255,0.5), rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.0) 50%, transparent);
+}
+a.fancy_button.blue {
+	background-color: blue;
+}
+a.fancy_button.blue:hover {
+	background-color: red;
+}
+.clearfix { zoom: 1; }
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
