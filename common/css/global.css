@@ -42,24 +42,31 @@ a:hover {
 	font-size: 32px;
 	font-weight: bold;
 }
-
-.content {
-	text-align: left;
-}
-.content .main {
-	/*margin-left: 300px;*/
-	background: blue;
-}
-.content .menu {
-	float: left;
-	width: 200px;
-	background: red;
-}
-
 .footer .copyright {
 	font-size: 10px;
 }
 
+#home .content {
+	padding: 0 20px;
+	text-align: left;
+}
+#home .content h1 {
+	background: #007BDE;
+}
+#home .content .liquid {
+	float: right;
+	margin-left: -200px;
+	width: 100%;
+}
+#home .content .liquid .main {
+	margin-left: 200px;
+	background: blue;
+}
+#home .content .menu {
+	float: left;
+	width: 200px;
+	/*background: red;*/
+}
 #home .content h1 {
 	font-size: 24px;
 	font-weight: bold;
@@ -68,7 +75,6 @@ a:hover {
 }
 #home .content section.cat1 ul li {
 	padding: 0 10px;
-	border-right: 1px solid #333;
 }
 
 /**
