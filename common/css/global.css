@@ -4,28 +4,8 @@
 	Copyright (c) MY REAL VISION All Rights Reserved.
 	Last Updated: 2012/04/25
 
-	[INDEX]
-	1. Common Format: 共通設定
-		1.1 reset
-		1.2 global
-		1.3 header
-		1.4 content
-		1.5 footer
-	2. Directory Format: ディレクトリごとの共通設定
-		2.1 top
-		2.2 hoge
-		2.3 hoge
-			2.3.1 hoge
-		2.11 error404
-	3. Other Styles: その他スタイル
-
 ================================================================================ */
 
-/* --------------------------------------------------------------------------------
-
-	1. Common Format
-
--------------------------------------------------------------------------------- */
 /**
  * 1.1 reset
  * リセット
@@ -53,17 +33,42 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-#content {
-	text-align: left;
-}
 
-#header #site-name {
-	font-size: 24px;
+.header {
+	padding: 10px 0;
+	border-top: 3px solid #333;
+}
+.header .site-name {
+	font-size: 32px;
 	font-weight: bold;
 }
 
-#footer #copyright {
+.content {
+	text-align: left;
+}
+.content .main {
+	/*margin-left: 300px;*/
+	background: blue;
+}
+.content .menu {
+	float: left;
+	width: 200px;
+	background: red;
+}
+
+.footer .copyright {
 	font-size: 10px;
+}
+
+#home .content h1 {
+	font-size: 24px;
+	font-weight: bold;
+}
+#home .content section.cat1 ul {
+}
+#home .content section.cat1 ul li {
+	padding: 0 10px;
+	border-right: 1px solid #333;
 }
 
 /**
